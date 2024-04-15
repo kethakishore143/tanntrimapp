@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/tanntrimapp/static/css/main.df29705a.css",
+    "main.js": "/tanntrimapp/static/js/main.0f5f021b.js",
+    "static/js/453.ea93fe4f.chunk.js": "/tanntrimapp/static/js/453.ea93fe4f.chunk.js",
+    "index.html": "/tanntrimapp/index.html",
+    "main.df29705a.css.map": "/tanntrimapp/static/css/main.df29705a.css.map",
+    "main.0f5f021b.js.map": "/tanntrimapp/static/js/main.0f5f021b.js.map",
+    "453.ea93fe4f.chunk.js.map": "/tanntrimapp/static/js/453.ea93fe4f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.df29705a.css",
+    "static/js/main.0f5f021b.js"
+  ]
+}
