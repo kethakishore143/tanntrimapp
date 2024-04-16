@@ -21,7 +21,7 @@ const Header = () => {
                 <label htmlFor="menu-toggle" className="menu-icon" onClick={toggleMenu}>&#9776;</label>
 
                 <ul className={`nav-items-container ${isMenuOpen ? 'show' : ''}`} id='list'>
-                    <li><Link to="/tanntrimapp/bags">
+                    <li><Link to="/tanntrimapp">
                         Bags
                     </Link></li>
                     <li>

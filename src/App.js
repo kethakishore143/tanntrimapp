@@ -15,7 +15,7 @@ function App() {
 
 
     <Switch>
-      <Route exact path="/tanntrimapp/bags" component={Productsapi} />
+      <Route exact path="/tanntrimapp" component={Productsapi} />
       <Route exact path="/tanntrimapp/travel" component={Travel} />
       <Route exact path="/tanntrimapp/accessories" component={Accessories} />
       <Route exact path="/tanntrimapp/gifting" component={Gifting} />
