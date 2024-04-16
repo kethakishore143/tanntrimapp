@@ -1,0 +1,72 @@
+.app-container {
+    background-color: #000000;
+    background-size: cover;
+
+
+}
+
+.list-items-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.Bags-count {
+    display: none;
+
+
+}
+
+.arrow-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+}
+
+.arrow-container p {
+    padding: 10px;
+}
+
+.Bags-icons {
+    margin-left: 10px;
+    margin-right: 25px;
+    margin-top: 5px;
+    width: 5%;
+}
+
+.svg-icons {
+    display: none;
+}
+
+@media screen and (min-width:600px) {
+    .Bags-icons {
+        width: 100px;
+    }
+
+    .svg-icons {
+        display: flex;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: 100px;
+
+    }
+
+    .Bags-count {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        position: relative;
+        top: 70px;
+        margin: 10px;
+        padding: 10px;
+
+    }
+}

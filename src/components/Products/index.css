@@ -1,0 +1,132 @@
+/* General styles */
+.list-items {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px;
+}
+
+.product-title {
+    font-size: 20px;
+    font-family: "Roboto";
+    font-weight: bold;
+    color: #E5DFD9;
+    text-align: center;
+    /* Center the product title */
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: right;
+    margin: 10px;
+}
+
+
+.price-details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.discounted-price {
+    font-size: 18px;
+    font-family: "Roboto";
+    font-weight: bold;
+    color: #E5DFD9;
+}
+
+.rupee-icon {
+    font-size: 16px;
+    font-family: "Roboto";
+    font-weight: bold;
+    color: #E5DFD9;
+}
+
+.price {
+    font-size: 10px;
+    font-family: "Roboto";
+    font-weight: 200;
+    color: #E5DFD9;
+    margin: 5px 0;
+    padding-left: 15px;
+    text-decoration: line-through;
+    padding-top: 15px;
+}
+
+.discount {
+    color: green;
+    font-size: 15px;
+    font-family: "Roboto";
+    font-weight: bold;
+    padding-top: 15px;
+
+}
+
+.shopping-bag {
+    font-size: 20px;
+    font-family: "Roboto";
+    font-weight: bold;
+    color: #E5DFD9;
+    text-align: center;
+    /* Center the text */
+    margin: 5px 0;
+    padding: 10px;
+    padding-left: 18px;
+    /* Add some spacing between elements */
+}
+
+
+.bookmark {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+/* Responsive styles */
+@media screen and (min-width: 768px) {
+    .list-items {
+        justify-content: flex-start;
+
+    }
+
+    .image-container {
+        margin: 10px 20px;
+
+    }
+
+    .price-container {
+        flex-direction: row;
+
+    }
+
+    .discounted-price,
+    .price {
+        font-size: 15px;
+
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .list-items {
+        justify-content: space-between;
+
+    }
+
+    .image-container {
+        margin: 10px;
+
+    }
+}

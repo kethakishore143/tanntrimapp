@@ -1,0 +1,123 @@
+/* Navbar styles */
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    background-color: #000000;
+    background-size: cover;
+}
+
+.tanntrim-heading {
+    font-size: 25px;
+    font-family: "Roboto";
+    font-weight: bold;
+    color: #E5DFD9;
+    padding: 10px;
+    padding-left: 20px;
+    letter-spacing: 0.55em;
+}
+
+.nav-items-container {
+    list-style: none;
+    padding: 10px;
+    display: flex;
+
+}
+
+.nav-items-container li {
+    color: white;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    font-size: 15px;
+    font-family: "Roboto";
+    font-weight: bold;
+    color: #E5DFD9;
+    padding: 10px;
+    margin-top: 10px;
+    padding-top: 15px;
+}
+
+.nav-items-container li a {
+    color: #E5DFD9;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+
+.nav-icons-container {
+    display: flex;
+    gap: 10px;
+}
+
+.nav-icons {
+    color: #E5DFD9;
+    font-size: 20px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    padding: 10px;
+}
+
+.menu-icon {
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    display: none;
+    /* Hide by default */
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    .nav-items-container {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        top: 36px;
+        /* Adjust as needed */
+        left: 0;
+        width: 100%;
+        background-color: #333;
+        padding: 10px 0;
+        transition: transform 0.3s ease;
+        z-index: 999;
+        /* Ensure it's above other content */
+        text-align: center;
+        overflow-y: auto;
+        /* Enable scrolling if needed */
+        max-height: calc(100vh - 50px);
+        /* Adjust as needed */
+    }
+
+    .nav-items-container li {
+        margin: 10px 0;
+        display: flex;
+
+    }
+
+    .show {
+        display: none
+    }
+
+    .nav-icons-container {
+        display: none;
+    }
+
+    .menu-icon {
+        display: flex;
+        margin-right: 10px;
+        padding: 10px;
+    }
+
+
+    .tanntrim-heading {
+        font-size: 12px;
+    }
+}
+
+.nav-items-container1 {
+    display: flex;
+}
